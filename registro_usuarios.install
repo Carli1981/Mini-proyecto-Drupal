@@ -1,0 +1,38 @@
+<?php
+
+/**
+ * @file
+ * Instalador del módulo para crear la tabla en la base de datos.
+ */
+
+/**
+ * Implementa hook_schema().
+ */
+function registro_usuarios_schema() {
+  $schema['registro_usuarios'] = [
+    'description' => 'Tabla para almacenar los usuarios registrados.',
+    'fields' => [
+      'id' => [
+        'type' => 'serial',
+        'not null' => TRUE,
+      ],
+      'nombre' => [
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+      ],
+      'correo' => [
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+      ],
+      'creado' => [
+        'type' => 'int',
+        'not null' => TRUE,
+      ],
+    ],
+    'primary key' => ['id'],
+  ];
+
+  return $schema;
+}

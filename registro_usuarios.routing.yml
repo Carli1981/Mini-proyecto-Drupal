@@ -1,0 +1,15 @@
+registro_usuarios.formulario:
+  path: '/registro-usuarios'
+  defaults:
+    _form: 'Drupal\registro_usuarios\Form\RegistroUsuariosFormulario'
+    _title: 'Formulario de Registro de Usuario'
+  requirements:
+    _permission: 'access content'
+
+registro_usuarios.lista:
+  path: '/usuarios'
+  defaults:
+    _controller: 'Drupal\registro_usuarios\Controller\RegistroUsuariosController::listarUsuarios'
+    _title: 'Usuarios Registrados'
+  requirements:
+    _permission: 'access content'
