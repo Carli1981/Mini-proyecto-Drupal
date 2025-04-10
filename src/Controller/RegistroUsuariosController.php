@@ -51,6 +51,11 @@ class RegistroUsuariosController extends ControllerBase {
       '#theme' => 'table',
       '#header' => ['Nombre', 'Correo'],
       '#rows' => $rows,
+      '#attached' => [
+        'library' => [
+          'registro_usuarios/estilos_personalizados',
+        ],
+      ],
     ];
   }
 }

@@ -30,6 +30,9 @@ class RegistroUsuariosFormulario extends FormBase {
       '#value' => $this->t('Registrar'),
     ];
 
+    $form['#attached']['library'][] = 'registro_usuarios/estilos_personalizados';
+
+
     // Mostrar solo el último usuario registrado
     $ultimo_usuario = \Drupal::state()->get('registro_usuarios.ultimo_usuario');
 
