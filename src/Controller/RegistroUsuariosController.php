@@ -58,4 +58,4 @@ class RegistroUsuariosController extends ControllerBase {
       ],
     ];
   }
-}
+}  

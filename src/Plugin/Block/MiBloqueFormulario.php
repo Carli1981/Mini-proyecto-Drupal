@@ -20,4 +20,3 @@ class MiBloqueFormulario extends BlockBase {
     return \Drupal::formBuilder()->getForm('Drupal\registro_usuarios\Form\RegistroUsuariosFormulario');
   }
 }
-

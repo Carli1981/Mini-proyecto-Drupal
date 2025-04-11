@@ -1,70 +1,69 @@
 /* Fondo general */
 body {
-    background-color: #f0f8ff; /* Puedes cambiar este color por otro más llamativo */
-    font-family: Arial, sans-serif;
-  }
-  
-  /* Centrar el contenido de los formularios y tablas */
-  .page-wrapper, .region-content {
-    display: flex;
-    justify-content: center;
-  }
-  
-  /* Estilo para el formulario */
-  form#registro_usuarios_formulario {
-    background-color: #ffffff;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    width: 100%;
-    max-width: 500px;
-    margin: 2rem auto;
-  }
-  
-  /* Estilo para los campos del formulario */
-  form#registro_usuarios_formulario input[type="text"],
-  form#registro_usuarios_formulario input[type="email"] {
-    width: 100%;
-    padding: 0.75rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  /* Botón de envío */
-  form#registro_usuarios_formulario input[type="submit"] {
-    background-color: #0074d9;
-    color: white;
-    border: none;
-    padding: 0.75rem 1.5rem;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  form#registro_usuarios_formulario input[type="submit"]:hover {
-    background-color: #005fa3;
-  }
-  
-  /* Estilo para la tabla de usuarios */
-  table {
-    margin: 2rem auto;
-    border-collapse: collapse;
-    width: 90%;
-    max-width: 800px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
-  
-  table thead {
-    background-color: #0074d9;
-    color: white;
-  }
-  
-  table th, table td {
-    text-align: left;
-    padding: 1rem;
-    border-bottom: 1px solid #eee;
-  }
-  
+  background-color: #f0f8ff; /* Puedes cambiar este color por otro más llamativo */
+  font-family: Arial, sans-serif;
+}
+
+/* Centrar el contenido de los formularios y tablas */
+.page-wrapper, .region-content {
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilo para el formulario */
+form#registro_usuarios_formulario {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+/* Estilo para los campos del formulario */
+form#registro_usuarios_formulario input[type="text"],
+form#registro_usuarios_formulario input[type="email"] {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Botón de envío */
+form#registro_usuarios_formulario input[type="submit"] {
+  background-color: #0074d9;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form#registro_usuarios_formulario input[type="submit"]:hover {
+  background-color: #005fa3;
+}
+
+/* Estilo para la tabla de usuarios */
+table {
+  margin: 2rem auto;
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 800px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+table thead {
+  background-color: #0074d9;
+  color: white;
+}
+
+table th, table td {
+  text-align: left;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}

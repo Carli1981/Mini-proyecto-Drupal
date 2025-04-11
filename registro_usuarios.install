@@ -35,4 +35,4 @@ function registro_usuarios_schema() {
   ];
 
   return $schema;
-}
+}                                                                                                                                                                                                            

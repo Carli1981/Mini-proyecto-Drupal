@@ -4,4 +4,4 @@ description: 'Módulo que permite registrar usuarios y mostrarlos en una página
 package: Custom
 core_version_requirement: ^9 || ^10
 dependencies:
-  - drupal:block
+  - drupal:block                                                                                                                          
