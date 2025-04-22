@@ -12,4 +12,16 @@ registro_usuarios.lista:
     _controller: 'Drupal\registro_usuarios\Controller\RegistroUsuariosController::listarUsuarios'
     _title: 'Usuarios Registrados'
   requirements:
-    _permission: 'access content' 
+    _permission: 'access content'
+
+registro_usuarios.api_usuario:
+  path: '/api/usuarios/{id}'
+  defaults:
+    _controller: 'Drupal\registro_usuarios\Controller\ApiUsuariosController::obtenerUsuario'
+    _title: 'API Usuario'
+  requirements:
+    _permission: 'access content'
+    id: \d+
+
+  options:
+    _format: 'json'

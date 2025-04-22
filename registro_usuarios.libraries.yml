@@ -1,5 +1,0 @@
-estilos_personalizados:
-  version: 1.x
-  css:
-    theme:
-      css/registro_usuarios.css: {}
