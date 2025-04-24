@@ -25,3 +25,12 @@ registro_usuarios.api_usuario:
 
   options:
     _format: 'json'
+
+registro_usuarios.editar:
+  path: '/editar-usuario/{id}'
+  defaults:
+    _form: 'Drupal\registro_usuarios\Form\EditarUsuarioForm'
+    _title: 'Editar Usuario'
+  requirements:
+    _permission: 'access content'
+    id: \d+
